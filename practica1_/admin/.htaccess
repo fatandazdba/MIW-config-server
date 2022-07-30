@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Restritec Files"
+AuthBasicProvider file
+AuthUserFile C:/xampp/apache/conf/passw/.htpasswd
+#Require valid-user
+Require user freddy
+Require user fatandaz

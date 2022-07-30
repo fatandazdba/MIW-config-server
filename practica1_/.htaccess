@@ -1,0 +1,6 @@
+<Files "logincert.php" >
+    SSLVerifyClient require
+    SSLVerifyDepth 3
+    SSLOptions +StdEnvVars
+</Files>
+

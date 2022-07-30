@@ -1,0 +1,12 @@
+<virtualHost * 80>
+ 	DocumentRoot "C:/xamp/htdocsSAW"
+ 	ServerName www.miw.com
+	<Directory "C:/xampp/htdocsSAW>
+		AllowOverride All
+		Require all granted
+	</Directory>
+        <Directory "C:/xampp/htdocsSAW/practica1">
+		Options -Indexes
+		DirectoryIndex login.php
+	</Directory>
+</VirtualHost>
